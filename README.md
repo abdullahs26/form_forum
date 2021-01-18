@@ -1,1 +1,15 @@
-# form_forum
+# Form Forum
+
+## Video Demo
+https://www.youtube.com/watch?v=Gq_uE9TSAS0&feature=emb_title&ab_channel=JonathanD%27souza
+
+## What it does
+The web application allows users to showcase their fitness journeys by posting exercise/sport videos on the forum, and receive constructive feedback from the community on how to improve their fitness. The forum is designed to encourage and motivate everyone to better their personal fitness, as each user receives a "form rating" that is an accumulation of the rating given by other users based on the form represented by the given individual. This form rating system allows for the betterment of the community's fitness as a whole, as it allows users to make easily attainable goals along with some healthy competition, thus encouraging them to stick to a fitness lifestyle. The site includes user authentication, video posts, and comments which creates a very engaging environment for all users, and the search function allows the users to specify their own exercise preferences, and view exercises tailored to their needs. 
+## How we built it
+Using the CockroachDB cloud database, each user's account information, posts, and comments are securely stored in the database tables and displayed onto the website when queried. Whenever the user interacts with the site, through uploading a new video, upvoting a post, or adding a comment, the values in the database are updated by our PHP application hosted by Microsoft Azure, and the website will dynamically change accordingly.
+## Challenges we ran into
+As we were all relatively new to using databases and PHP, we ran into a handful of issues whilst making the web application. The search functionality was causing a lot of issues due to our unfamiliarity with PHP code. Furthermore, the uploading and storing of the video files was also a challenge. Despite these challenges, we were able to persevere as a team and come up with unique solutions to these challenges and create a functional web application. 
+## Accomplishments that we're proud of
+With little to no PHP and database experience beforehand, we managed to create and host a fully functioning web application using all the new skills and technologies that we had learned since the start of the hackathon, and we're proud that we were able to stick with the idea even when we encountered difficulties, to overcome them. We're proud of all the functionalities that we were able to implement into the application, through both the backend and frontend, to make the user experience as satisfying as possible. 
+## What we learned
+We learned many new skills that will be useful for years to come. Some of these include technical skills, like using PHP, SQL databases, HTML, CSS, full stack development, etc. As we were all mostly unfamiliar with the technologies we used for this project, the result was a lot of technical learning. However, we also ran into challenges and developed our other non-technical skills as well. We learned how to problem solve, and work together as a team to accomplish a common goal.  
